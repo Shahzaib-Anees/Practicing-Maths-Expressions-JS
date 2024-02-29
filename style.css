@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    padding: 0% 4%;
+    margin: 0%;
+    background-color: #0b0c10;
+    color: #fff;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Roboto";
+    font-size: 1.1rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+h1 {
+    color: #66FCF1;
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+h3 {
+    color: #45A29E;
+    margin: 0%;
+    font-size: 3rem;
+}
+
+p {
+    width: 100%;
+    color: #C5C6C7;
+    margin: 0%;
+    font-size: 1.5rem;
+    line-height: 45px;
+}
+
+
+.pages-links>p{
+    width: 100%;
+}
+
+.pages-links>ul{
+    display: flex;
+    align-items: flex-start;
+    gap:20px;
+    padding: 0%;
+    color: #C5C6C7;
+}
+
+.pages-links>ul>a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #C5C6C7;
+    border: 1px solid #C5C6C7;
+    border-radius: 10px;
+    padding:8px 15px;
+}
+.pages-links>ul>a:hover{
+    scale: 1.1;
+    border: 1px solid #45A29E;
+    color: #45A29E;
+}
+.pages-links>ul>a:focus{
+    scale: 1;
+    border: 1px solid #45A29E;
+    color: #45A29E;
+}
+
