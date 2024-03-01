@@ -110,3 +110,39 @@ let dollar_value = 10;
 let riyal_value = 25;
 document.write(`Total Currency in PKR : ${(dollar_value * 104.80) + (riyal_value * 28)}`);
 
+
+// 10
+document.write("<h3>Incriment and Decriment Variables</h3>")
+let num_variable = 5;
+num_variable+=5;//10
+num_variable*=10;//100
+num_variable/=2;//50
+document.write(`The value of Variable after Incriment and Decriment : ${num_variable}`);//Answer=10;
+
+// 11
+// Age Calculator;
+document.write("<br>");
+document.write("<br>");
+document.write("<h3>Age Calculator</h3>")
+alert( `I can Calculate your age`);
+let birth_year=+prompt("Enter your Birth year");
+let current_year = 2024;
+document.write(`Your current Age is ${current_year - birth_year}`);
+
+// 12 
+document.write("<h3>The Geometrizer</h3>");
+let radius_of_circle = 20;
+document.write(`The Circumference of Circle is : ${2 * 3.142 * radius_of_circle}`);
+document.write("<br>");
+document.write("<br>");
+let radius_of_circle_square=radius_of_circle ** 2;
+document.write(`The Area of Circle is : ${3.142 * radius_of_circle_square}`);
+
+// 13 
+document.write("<br>");
+document.write("<br>");document.write("<h3>LifeTime Supply Caculator</h3>")
+let favouriteSnack = "Choclate Chip";
+let current_age = 15;
+let estimated_age=65;
+let amount_of_sacks_per_day = 3;
+document.write(`You will need ${(estimated_age - current_age) * amount_of_sacks_per_day} to last you until the ripe old age of ${estimated_age};`);
