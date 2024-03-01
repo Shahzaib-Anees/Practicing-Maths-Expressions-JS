@@ -66,8 +66,9 @@ for (a = 1; a < 11; a++) {
 document.write("<br>");
 document.write("<br>");
 document.write("<br>");
-document.write("<h3>Temperature Converter</h3>")
+
 // 5
+document.write("<h3>Temperature Converter</h3>")
 let celsius_temp = +prompt("I can convert Celsius into Farenheit \n You can give me a value in Celsius to convert it into Farenheit")
 
 document.write(`The Output of your Celsius value is ${(celsius_temp * 9 / 5) + 32}`);
