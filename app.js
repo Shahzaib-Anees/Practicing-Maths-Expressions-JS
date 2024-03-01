@@ -91,7 +91,7 @@ document.write(`Total Cost of your Order is ${(item1_cost * 3) + (item2_cost * 7
 // 7
 document.write("<br>");
 document.write("<br>");
-document.write("<h3>Mark Sheet</h3>")
+document.write("<h3>Mark Sheet</h3>");
 let total_marks = 980;
 let student_marks = 804;
 let percentage = (student_marks * 100) / total_marks;
@@ -104,3 +104,8 @@ document.write(`Percentage : ${percentage};`);
 // 8
 document.write("<br>");
 document.write("<br>");
+document.write("<h3>Currency Calculator</h3>")
+let dollar_value = 10;
+let riyal_value = 25;
+document.write(`Total Currency in PKR : ${(dollar_value * 104.80) + (riyal_value * 28)}`);
+
